@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Final</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">	
+    <div class="row">
+  	  <div class="two-thirds column">
+        <br>
+        <br>
+        <h2>TESTE DE DEPRESSÃO</h2>
+        <div>
+          <h4 style="color: black;">Independente do resultado, Se você sente que está com depressão procure ajuda especializada!</h6>
+          <h6 style="color: black;">*Este questionário é adaptado do teste criado pelo Dr. Spitzer e Dr William
+            (PHQ - Patient Health Questionnaire) </h6>
+        </div>
+
+        <div id="progress_bar"></div>
+  	  	<form class="questions_box">
+
+  	  		<div id="question-1">
+  	  		  <h2>Questão 1</h2>
+  	  			<h3>Qual sua idade?</h3>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=1> Menos de 18 anos<br>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value=2> 18 a 30 anos<br>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value=3> 31 a 40 anos<br>
+            <input id="question-1-answer-d" type="radio" name="favelang" value=4> 51 a 60 anos<br>
+  				  <div id="submit1" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+  			  </div>
+
+  			 <div id="question-2">
+  				 <h2>Questão 2</h2>
+  				 <h3>2.	Você se identifica com qual gênero?</h3>
+  	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Feminino<br>
+  				 <input id="question-2-answer-b" type="radio" name="favelang" value="2"> Masculino<br>
+  				 <input id="question-2-answer-c" type="radio" name="favelang" value="3"> Sem gênero<br>
+  				 <div id="submit2" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+  			
+  			 <div id="question-3">	
+  				 <h2>Questão 3</h2>
+  				 <h3>Sentiu pouco interesse ou pouco prazer em fazer as coisas do dia-a-dia?</h3>
+  	  		 <input id="question-3-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				 <input id="question-3-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				 <input id="question-3-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+           <input id="question-3-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+  				 <div id="submit3" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+
+         <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Se sentiu ‘pra baixo’ ou deprimido/a?</h3>
+            <input id="question-4-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				  <input id="question-4-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				  <input id="question-4-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+            <input id="question-4-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+            <div id="submit4" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+            <h3>Teve dificuldade para pegar no sono ou não teve uma noite tranquila?</h3>
+            <input id="question-5-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				  <input id="question-5-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				  <input id="question-5-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+            <input id="question-5-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+            <div id="submit5" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-6">
+            <h2>Questão 6</h2>
+            <h3>Se sentiu cansado/a ou com pouca energia?</h3>
+            <input id="question-6-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				  <input id="question-6-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				  <input id="question-6-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+            <input id="question-6-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+            <div id="submit6" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-7">
+            <h2>Questão 7</h2>
+            <h3>Teve falta de apetite ou apetite demais?</h3>
+            <input id="question-7-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				  <input id="question-7-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				  <input id="question-7-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+            <input id="question-7-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+            <div id="submit7" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-8">
+            <h2>Questão 8</h2>
+            <h3>Se sentiu mal consigo mesmo/a - sensação de fracasso?</h3>
+            <input id="question-8-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				  <input id="question-8-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				  <input id="question-8-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+            <input id="question-8-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+            <div id="submit8" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-9">
+            <h2>Questão 9</h2>
+            <h3>Sentiu lentidão ao andar ou falar? Ou o oposto, se sentiu mais agitado do que o habitual?</h3>
+            <input id="question-9-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				  <input id="question-9-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				  <input id="question-9-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+            <input id="question-9-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+            <div id="submit9" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-10">
+            <h2>Questão 10</h2>
+            <h3>Teve dificuldade para se concentrar nas coisas do dia-a-dia, como ler o jornal ou ver televisão?</h3>
+            <input id="question-10-answer-a" type="radio" name="favelang" value="1"> Nunca<br>
+  				  <input id="question-10-answer-b" type="radio" name="favelang" value="2"> Alguns dias<br>
+  				  <input id="question-10-answer-c" type="radio" name="favelang" value="3"> Mais da metade dos dias<br>
+            <input id="question-10-answer-d" type="radio" name="favelang" value="4"> Quase todos os dias<br>
+            <div id="submit10" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+         <div id="question-11"> 
+           <h2>Obrigado por responder a pesquisa!</h2>
+           <h3>Seu Nível de Depressão é: </h3>
+           <h1 id=printtotalscore></h1>
+           <p id=printscoreinfo></p>
+           <form>
+             <label for="name">Nome: </label>
+            <input id="user-name" type="text" name="favelang" value="Anônimo" placeholder="Infome seu Nome"> 
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input id="user-email" type="email" name="favelang" value="Anônimo" placeholder="Infome seu Email"> 
+            <br>
+            <br>
+            <label for="Age">Idade: </label>
+            <input id="user-age" type="number" name="favelang" placeholder="Infome sua Idade"> 
+            <br>
+            <br>
+            <button type="button" class="button" onclick="armazanaresultado()">Enviar</button>
+           </form>
+           
+         </div>
+
+
+  				
+  	  	</form>
+
+  	  </div>
+  	</div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
